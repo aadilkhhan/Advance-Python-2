@@ -1,0 +1,14 @@
+from typing import TypeVar
+
+
+name = "Aadil"
+channel = "Codewithaadil"
+type = "coding"
+# a = f"This is {name}"
+# a = "This is {}".format(name)
+# a = "This is {} and his channel is {}".format(name , channel)
+# a = "This is {} and his channel is {}".format(name , channel , type)
+a = "This is {0} and his {2} channel is {1}".format(name , channel , type)
+
+
+print(a)
